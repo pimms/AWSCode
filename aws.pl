@@ -418,8 +418,8 @@ sub printHelp
 {
 	print "And-I-Was-Like-Code [AWSCode] v0.1\n\n";
 	print "This program parses a valid AWSCode file\n";
-	print "and translates it into C-code, then compiles it using GCC.\n";
-	print "See syntaxdemo.txt for example usage.\n\n";
+	print "and translates it into C++ code, then compiles it using gcc.\n";
+	print "See AWS_doc_0-1.txt for language documentation.\n\n";
 	print "Arguments:\n";
 	print "\t-h\tdisplay this screen.\n";
 	print "\n";
