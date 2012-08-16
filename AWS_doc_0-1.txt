@@ -182,9 +182,6 @@ Print a newline:
 
 ------  IMPORTANT NOTICES  ------
 
-- Variables can currently not be modified, and cannot hold any value
-	but their initialization value.
-
 - AWS does currently NOT keep track of variable scope. Watch compiler
 	output for errors in your syntax.
 
@@ -198,7 +195,7 @@ Print a newline:
 	printf(), as there is with cout. Call it as a regular function:
 		'anyway, printf "%d" myInt'
 
-- 'duuh' is a protected keyword.
+- 'duuh' and 'duh' are unprotected keywords. Please don't use them.
 
 
 
