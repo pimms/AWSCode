@@ -92,6 +92,7 @@ sub parseAWSCode_Cpp
 	{
 		$filename =~ s/\.\w+$//;
 		rename("a.out", "$filename");
+		system("rm tmp.cpp");
 		
 		print "Program compiled successfully: $filename\n";
 		print "Run the command './$filename' to run the program.\n\n";
