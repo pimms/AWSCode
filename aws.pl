@@ -239,9 +239,6 @@ sub valVariable
 		return 1;
 	}
 
-
-	# BUGGY MOTHERFUCK!!
-
 	# REASSIGNMENT FROM EXPRESSION
 	if ($expr =~ m/^\s*then\s+(_|\w)+[a-zA-Z0-9_]*\s+was like\s+((_|\w)+[a-zA-Z0-9_]*|[0-9]\.*[0-9]*|".*"|(((_|\w)+[a-zA-Z0-9_]*|[0-9]\.*[0-9]*)(\s*[\+\-\*\/]\s*((_|\w)+[a-zA-Z0-9_]*|[0-9]\.*[0-9]*))+))\s*$/)
 	{
