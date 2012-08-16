@@ -409,7 +409,7 @@ sub valElse
 sub gccExists
 {
 	my $response = `gcc`;
-	if ($response =~ m/fbc.pl/i) 
+	if ($response =~ m/aws.pl/i) 
 		{return 0;}
 	else 
 		{return 1;}
