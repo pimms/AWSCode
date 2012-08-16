@@ -1,0 +1,23 @@
+so the program was like <iostream>
+
+so the function print_bottles int num was like duh
+	like, oh my god! num > 1!
+		umm so, printf "%d bottles of beer on the wall, %d bottles of beer.\n" num num
+		anyway, printf "Take one down and pass it around, %d bottles of beer.\n" num
+	say whaaaat!?!?!
+		like, oh my god! num == 1!
+			so i was like "1 bottle of beer on the wall, 1 bottle of beer."
+			and i was like "Take one down and pass it around, no more bottles of beer on the wall."
+		say whaat!?
+			and i was like "No more bottles of beer on the wall, no more bottles of beer. "
+			so i was like "Go to the store and buy some more, 99 bottles of beer on the wall."
+		totally
+	totally
+totally
+
+and the function main was like int
+	so this i was like 99, but then it was like woah, 0
+		umm so, print_bottles i
+		so i was like duuh
+	totally
+like, totally
