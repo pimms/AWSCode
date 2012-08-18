@@ -37,8 +37,8 @@ defined accordingly.
 
 The function syntax is as such:
 
-#	and the function [name] [vartype] [varname] was like [retval]
-#	totally
+*	and the function [name] [vartype] [varname] was like [retval]
+/	totally
 
 Note that the parameters are optional, and more than one can be added. 
 As such:
@@ -57,7 +57,7 @@ Which will translate into:
 
 Declaring a variable is straight forward.
 
->	so this int x was like 0
+#	so this int x was like 0
 #	and this float y was like square 5
 #	and this float z was like x + y
 
