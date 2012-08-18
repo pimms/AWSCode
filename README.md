@@ -101,7 +101,7 @@ as following:
 
 This is the AWS equivalent of this:
 
-	for (int i=0; i<=10; i++)
+	for (int i=0; i<=10; i++) {
 
 Naturally, you are able to count downwards as well:
 
@@ -109,9 +109,10 @@ Naturally, you are able to count downwards as well:
 
 Which is equivalent to:
 
-	for (int i=10; i>=0; i--) 
+	for (int i=10; i>=0; i--) {
 
-It's important to note that all loops must be "totally"ed.
+It's important to note that all loops must be "totally"ed. Notice the 
+unclosed curly bracket (`{`).
 
 
 #If-else
