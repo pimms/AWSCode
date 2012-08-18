@@ -118,7 +118,7 @@ It's important to note that all loops must be "totally"ed.
 
 If-else syntax is pretty straight forward:
 
-	like, oh my god! 1 < 5!		// if (1<5) { 
+	like, oh my god! i<3!		// if (i<3) { 
 		// code
 	say whaaaat?  				// } else {
 		// code
