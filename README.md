@@ -143,13 +143,6 @@ Only double-forward-slash comments are valid in AWS.
 HOWEVER! They have to be placed on a separate line. Comments
 cannot be placed after an expression.
 
-INVALID:
-	<code> 	  // comment
-
-VALID:
-	// comment
-	<code>
-
 
 #Sample program
 
