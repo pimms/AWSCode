@@ -37,10 +37,10 @@ defined accordingly.
 
 The function syntax is as such:
 
-`
-and the function [name] [vartype] [varname] was like [retval]  
-totally  
-`
+
+	and the function [name] [vartype] [varname] was like [retval]  
+	totally  
+
 
 Note that the parameters are optional, and more than one can be added. 
 As such:
