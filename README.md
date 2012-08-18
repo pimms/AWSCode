@@ -11,7 +11,7 @@ easily reach it.
 From the command line, type this to compile a AWS-program,
 and await furher instructions from the script.
 
-$>AWS.pl filename
+$>perl aws.pl filename
 
 The g++ compiler WILL pickup any errors from the AWS-translation,
 and also inform you about it. In order to make your life a little 
