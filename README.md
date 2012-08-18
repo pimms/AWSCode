@@ -30,7 +30,7 @@ be worked on further. No guarantee for anything to work is provided, and
 you should be relieved if you even got this text file to open.
 
 
-------  Declaring a function  ------
+#Declaring a function
 
 There is no prototying available at this point in time. Functions must be
 defined accordingly. 
@@ -55,7 +55,7 @@ Which will translate into:
 	}
 
 
-------  Declaring a variable  ------
+#Declaring a variable
 
 Declaring a variable is straight forward.
 
@@ -77,7 +77,7 @@ Typecasting is also allowed, but only for function return values.
 	then x was like omg, (int)floatFunction
 
 
-------  Calling a function  ------
+#Calling a function
 
 Calling a function is done in two ways:
 
@@ -90,7 +90,7 @@ C and C++ library functions can be called in this fashion.
 	anyway, printf "%d\n" 15
 
 
-------  Declaring a for-loop  -------
+#Declaring a for-loop
 
 For loop is the only available loop in AWS. Also, it is only compatible
 with int-values. You don't have any other options, in fact. It is declared
@@ -114,7 +114,7 @@ Which is equivalent to:
 It's important to note that all loops must be "totally"ed.
 
 
-------  If-else  ------
+#If-else
 
 If-else syntax is pretty straight forward:
 
@@ -132,7 +132,7 @@ Now, notice three things.
 3. THERE IS NO ELSE-IF. Not at all. Use two if-statements instead.
 
 
-------  Comments  ------
+#Comments
 
 Only double-forward-slash comments are valid in AWS.
 
@@ -151,7 +151,7 @@ VALID:
 	<code>
 
 
-------  Sample program  ------
+#Sample program
 
 	so this function print_bottle int num was like void
 		anyway
@@ -165,7 +165,7 @@ VALID:
 	totally			
 
 
-------  Additional syntax rules  ------
+#Additional syntax rules  
 
 Additional libraries / header files can be included with the following syntax:
 
@@ -195,7 +195,7 @@ Print a newline:
 	and i was like duuh
 
 
-------  IMPORTANT NOTICES  ------
+#IMPORTANT NOTICES
 
 - AWS does currently NOT keep track of variable scope. Watch compiler
 	output for errors in your syntax.
