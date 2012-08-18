@@ -45,36 +45,49 @@ The function syntax is as such:
 Note that the parameters are optional, and more than one can be added. 
 As such:
 	
-`	so the function main int argc char** argv was like int
-`	totally
+	so the function main int argc char** argv was like int
+	totally
 
 Which will translate into:
 
-#	int main(int argc, char** argv) 
-#	{
-#	}
+	int main(int argc, char** argv) 
+	{
+	}
 
 
 ------  Declaring a variable  ------
 
 Declaring a variable is straight forward.
 
-#	so this int x was like 0
-#	and this float y was like square 5
-#	and this float z was like x + y
+	so this int x was like 0
+	and this float y was like square 5
+	and this float z was like x + y
+
+Obviosly, you can change the value of any variable. 
+
+	so this int x was like 0
+	then x was like 4
+
+A variable can also be assigned / reassigned from a function
+	
+	so this int x was like omg, intFunction
+
+Typecasting is also allowed, but only for function return values.
+
+	then x was like omg, (int)floatFunction
 
 
 ------  Calling a function  ------
 
 Calling a function is done in two ways:
 
-#	anyway, func param1 param2
-#	umm so, func param1
-#	umm so, func
+	anyway, func param1 param2
+	umm so, func param
+	umm so, func
 
-The return value of the function can be stored in a variable as such:
+C and C++ library functions can be called in this fashion.
 
-#	so this float sq was like square 3
+	anyway, printf "%d\n" 15
 
 
 ------  Declaring a for-loop  -------
@@ -83,20 +96,20 @@ For loop is the only available loop in AWS. Also, it is only compatible
 with int-values. You don't have any other options, in fact. It is declared
 as following:
 
-#	so this i was like 0, but then it was like woah, 10
-#	totally
+	so this i was like 0, but then it was like woah, 10
+	totally
 
 This is the AWS equivalent of this:
 
-#	for (int i=0; i<=10; i++)
+	for (int i=0; i<=10; i++)
 
 Naturally, you are able to count downwards as well:
 
-#	so this i was like 10, but then it was like woah, 0
+	so this i was like 10, but then it was like woah, 0
 
 Which is equivalent to:
 
-#	for (int i=10; i>=0; i--) 
+	for (int i=10; i>=0; i--) 
 
 It's important to note that all loops must be "totally"ed.
 
@@ -105,11 +118,11 @@ It's important to note that all loops must be "totally"ed.
 
 If-else syntax is pretty straight forward:
 
-#	like, oh my god! 1 < 5!		// if (1<5) { 
-#		// code
-#	say whaaaat?  				// } else {
-#		// code
-#	totally						// } 
+	like, oh my god! 1 < 5!		// if (1<5) { 
+		// code
+	say whaaaat?  				// } else {
+		// code
+	totally						// } 
 
 Now, notice three things. 
 
@@ -123,40 +136,40 @@ Now, notice three things.
 
 Only double-forward-slash comments are valid in AWS.
 
-#	// Like so
+	// Like so
 
-#	/* These comments are invalid, and will be treated as an error. */
+	/* These comments are invalid, and will be treated as an error. */
 
 HOWEVER! They have to be placed on a separate line. Comments
 cannot be placed after an expression.
 
 INVALID:
-#	<code> 	  // comment
+	<code> 	  // comment
 
 VALID:
-#	// comment
-#	<code>
+	// comment
+	<code>
 
 
 ------  Sample program  ------
 
-#	so this function print_bottle int num was like void
-#		anyway
-#	totally
-#
-#	so this function main int argc char** argv was like int
-#		so this i was like 0, but then it was like woah, 10
-#			and i was like square i
-#		totally
-#		xoxo 0
-#	totally			
+	so this function print_bottle int num was like void
+		anyway
+	totally
+
+	so this function main int argc char** argv was like int
+		so this i was like 0, but then it was like woah, 10
+			and i was like square i
+		totally
+		xoxo 0
+	totally			
 
 
 ------  Additional syntax rules  ------
 
 Additional libraries / header files can be included with the following syntax:
 
-#	and the program was like <math.h>
+	and the program was like <math.h>
 
 --
 
@@ -167,9 +180,9 @@ placed after a pair of square brackets ([], no spaces) will be treated as raw
 C++, and avoid translation. The tag is line specific, and must be repeated
 for each line you wish to keep as raw C++.
 
-#	[]class myClass {	
-#	[]	int myVar;
-#	[]};
+	[]class myClass {	
+	[]	int myVar;
+	[]};
 
 While this gives you added flexibility in your AWS programs, it should
 also hopefully remind you of what a perfectly good waste of time writing code
@@ -179,7 +192,7 @@ in this language is. Stop it. Stop it now.
 
 Print a newline:
 
-#	and i was like duuh
+	and i was like duuh
 
 
 ------  IMPORTANT NOTICES  ------
